@@ -1,0 +1,12 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.3.1"
+  export = ["echo_service_fo"]
+  icon = "docs/icon.png"
+  keywords = ["Kind/Sample","Type/RestApi","Category/Service","Internal/http"]
+  name = "echo_service_fo"
+  org = "yashodperera"
+  version = "3.1.0"
+
