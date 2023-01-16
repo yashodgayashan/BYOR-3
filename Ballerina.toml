@@ -1,0 +1,9 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.2.3"
+  name = "greeting_service_2113"
+  org = "yashodperera"
+  version = "0.1.0"
+

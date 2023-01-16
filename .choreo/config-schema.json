@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "yashodperera": {
+      "type": "object",
+      "properties": {
+        "greeting_service_2113": {
+          "type": "object",
+          "properties": {
+            "config": {
+              "type": "object",
+              "properties": {
+                "webhookSecret": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "webhookSecret"
+              ],
+              "name": "ballerinax/trigger.github:0.8.1:ListenerConfig",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "config"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
