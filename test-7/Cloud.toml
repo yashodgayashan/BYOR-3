@@ -1,3 +1,6 @@
 [settings]
   buildImage = true
+  
+[hello]
+  test = "hola"
 
