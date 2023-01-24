@@ -4,4 +4,4 @@ name="hello" # container name
 tag="v0.1.0"
 
 [settings]
-singleYAML=false
+singleYAML=true
