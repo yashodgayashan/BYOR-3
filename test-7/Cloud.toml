@@ -4,3 +4,8 @@ name="hello" # containe r name
 tag="v0.1.2"
 
 
+[settings]
+singleYAML=true
+buildImage=true
+
+
