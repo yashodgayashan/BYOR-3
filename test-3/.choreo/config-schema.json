@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "yashodperera": {
+      "type": "object",
+      "properties": {
+        "asb_webhook": {
+          "type": "object",
+          "properties": {
+            "config": {
+              "type": "object",
+              "properties": {
+                "connectionString": {
+                  "type": "string"
+                },
+                "entityPath": {
+                  "type": "string"
+                },
+                "receiveMode": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "connectionString",
+                "entityPath"
+              ],
+              "name": "ballerinax/trigger.asb:0.5.1:ListenerConfig",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "config"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
