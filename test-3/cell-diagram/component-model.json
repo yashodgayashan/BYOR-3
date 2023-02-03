@@ -1,0 +1,81 @@
+{
+  "packageId": {
+    "name": "test_cell_diagram",
+    "org": "yashodperera",
+    "version": "0.1.0"
+  },
+  "hasCompilationErrors": false,
+  "services": {
+    "dfa5897b-dce9-46d0-b471-81bbf41f4fae": {
+      "path": "",
+      "serviceId": "dfa5897b-dce9-46d0-b471-81bbf41f4fae",
+      "serviceType": "ballerina/http:2.5.2",
+      "resources": [
+        {
+          "identifier": "greeting",
+          "resourceId": {
+            "serviceId": "dfa5897b-dce9-46d0-b471-81bbf41f4fae",
+            "path": "greeting",
+            "action": "get"
+          },
+          "parameters": [
+            {
+              "type": [
+                "string"
+              ],
+              "name": "name",
+              "in": "query",
+              "isRequired": true,
+              "elementLocation": {
+                "filePath": "/home/runner/workspace/5be850fcc7b5-test-cell-diagram-configs/5be850fcc7b5-test-cell-diagram-configs/test-3/service.bal",
+                "startPosition": {
+                  "line": 9,
+                  "offset": 35
+                },
+                "endPosition": {
+                  "line": 9,
+                  "offset": 46
+                }
+              }
+            }
+          ],
+          "returns": [
+            "string",
+            "error"
+          ],
+          "interactions": [],
+          "elementLocation": {
+            "filePath": "/home/runner/workspace/5be850fcc7b5-test-cell-diagram-configs/5be850fcc7b5-test-cell-diagram-configs/test-3/service.bal",
+            "startPosition": {
+              "line": 6,
+              "offset": 4
+            },
+            "endPosition": {
+              "line": 15,
+              "offset": 5
+            }
+          }
+        }
+      ],
+      "annotation": {
+        "id": "dfa5897b-dce9-46d0-b471-81bbf41f4fae",
+        "label": "",
+        "elementLocation": null
+      },
+      "remoteFunctions": [],
+      "dependencies": [],
+      "elementLocation": {
+        "filePath": "/home/runner/workspace/5be850fcc7b5-test-cell-diagram-configs/5be850fcc7b5-test-cell-diagram-configs/test-3/service.bal",
+        "startPosition": {
+          "line": 2,
+          "offset": 0
+        },
+        "endPosition": {
+          "line": 16,
+          "offset": 1
+        }
+      }
+    }
+  },
+  "entities": {}
+}
